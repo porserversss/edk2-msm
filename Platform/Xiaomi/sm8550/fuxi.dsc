@@ -17,8 +17,8 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT
 
 [PcdsFixedAtBuild.common]
-  gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|2032
-  gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|3048
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|3048
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|2032
 
   # Simple Init
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|414
